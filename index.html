@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
+  
+<head>
   <!-- Language and Character Set -->
   <meta name="language" content="fr-FR" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="./assets/bootstrap/bootstrap_clean.css" />
-  <link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style" onload="this.rel='stylesheet'" />
-  <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" media="print" />
+  <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css"/>
   <link rel="stylesheet" href="./assets/style.css" />
 
   <!-- Scripts -->
@@ -23,8 +23,11 @@
 
   <!-- Open Graph Meta Tags -->
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://reverse55.github.io/P4-Final/" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/reverse55/P4-Final/refs/heads/main/assets/images/nina_carducci.webp"/>
   <meta property="og:title" content="Nina Carducci - photographe" />
   <meta property="og:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer." />
+
 
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -93,13 +96,12 @@
               <source srcset="./assets/images/slider/ryoji-iwata.webp" media="(min-width: 1024px)" />
 
               <!-- Img pour des ecrans med (entre 768px et 1023px) -->
-              <source srcset="./assets/images/slider/ryoji-iwata_med.webp"
-                media="(min-width: 768px) and (max-width: 1023px)" />
+              <source srcset="./assets/images/slider/ryoji-iwata_med.webp" media="(min-width: 768px) and (max-width: 1023px)" />
 
               <!-- Img pour des ecrans petits (moins de 768px) -->
               <source srcset="./assets/images/slider/ryoji-iwata_small.webp" media="(max-width: 767px)" />
 
-              <!-- Img implicite, si aucune condition media s'applique -->
+              <!-- Img implicite, si aucune condition media s'applique image par default-->
 
               <img src="./assets/images/slider/ryoji-iwata_med.webp" class="d-block w-100" alt="Ryoji Iwata"
                 fetchpriority="high" />
